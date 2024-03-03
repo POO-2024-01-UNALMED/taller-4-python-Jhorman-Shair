@@ -9,7 +9,7 @@ class Grupo:
             asignaturas=[]
         self._asignaturas = asignaturas
         if estudiantes==None:
-            asignaturas=[]
+            estudiantes=[]
         self.listadoAlumnos = estudiantes
 
     def getAsignaturas(self):
